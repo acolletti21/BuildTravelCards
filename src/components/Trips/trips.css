@@ -17,6 +17,7 @@
 .trips-header--text {
     display: flex;
     align-items: center;
+    flex-grow: 1;
 }
 .trips-search {
     height: 30px;

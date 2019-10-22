@@ -41,6 +41,64 @@
     word-wrap: break-word;
 }
 
+.dd-wrapper {
+    user-select: none;
+    float: right;
+    display: block;
+    width: 272px;
+    padding: 1rem;
+    align-self: flex-end;
+    z-index: 10;
+    max-height: 60px;
+}
+
+.dd-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    line-height: 32px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 18px;
+    position: relative;
+    background-color: white;
+    color: #00000075;
+    padding: 0px 6px;
+}
+
+.dd-header span {
+    margin-right: 5px;
+}
+
+.dd-header-title {
+    font-weight: 300;
+}
+
+.dd-list {
+    z-index: 10;
+    color: black;
+    border: 1px solid rgb(223, 223, 223);
+    border-top: none;
+    border-bottom-right-radius: 3px;
+    border-bottom-left-radius: 3px;
+    background-color: white;
+    box-shadow: 0 2px 5px -1px rgb(232, 232, 232);
+    padding: 5px 0;
+    max-height: 315px;
+    overflow-y: scroll;
+    -webkit-overflow-scrolling: touch;
+}
+
+.dd-list-item {
+    width: 100%;
+    font-size: 18px;
+    padding: 8px 10px;
+    cursor: default;
+    display: inline-block;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
 @media only screen and (max-width: 968px) {
     .trips-wrap .card-wrap {
         max-width: none;

@@ -1,9 +1,14 @@
 .trip-grid-container {
-    margin: 3rem 4rem;
+    margin: 1rem 0rem;
     display: grid;
     grid-template-columns: 1fr;
 }
 
+@media screen and (min-width: 560px) {
+    .trip-grid-container {
+        margin: 3rem 5rem;
+    }
+}
 .trip-header {
     display: flex;
     flex-direction: column;
@@ -60,9 +65,15 @@
 }
 
 .trip-board {
-    display: inherit;
+    /* display: inherit; */
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(2, 150px);
+}
+
+@media screen and (min-width: 560px) {
+    .trip-board {
+        display: inherit;
+    }
 }
 
 .trip-text {

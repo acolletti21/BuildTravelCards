@@ -2,7 +2,7 @@
   box-sizing: border-box;
 }
 .App {
-   max-width: 420px;
+   /* max-width: 420px; */
    margin: 0 auto;
 }
 h1 {

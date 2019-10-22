@@ -410,6 +410,39 @@ const response = [
         category: 'family',
         copy:
             'End 2019 with a party you’ll not soon forget! The Marina Bay Singapore Countdown returns, to usher in the new year with fireworks displays lighting up the night sky alongside a host of exciting activities on the streets.'
+    },
+    {
+        name: 'Drinks in the Windy City',
+        id: 38,
+        image: 'chicago.jpg',
+        dateFrom: 'Nov 1nd 2020',
+        dateTo: 'Dec 7th 2020',
+        guests: 6,
+        category: 'celebration',
+        copy:
+            'King of Cups - This new cocktail bar in Lincoln Park has an eye-popping royalty-themed interior and 20 unique drinks on the opening menu to sip on. Drinks named after various “kings and queens”.'
+    },
+    {
+        name: 'Cave Exploring in Kentucky',
+        id: 39,
+        image: 'mammoth.jpg',
+        dateFrom: 'May 1nd 2020',
+        dateTo: 'May 7th 2020',
+        guests: 4,
+        category: 'state park',
+        copy:
+            'Mammoth Cave National Park preserves the cave system and a part of the Green River valley and hilly country of south central Kentucky. This is the worlds longest known cave system, with more than 400 miles (643 km) explored.'
+    },
+    {
+        name: 'Celebrate in Mexico City',
+        id: 40,
+        image: 'mexico.jpg',
+        dateFrom: 'Sept 12th 2020',
+        dateTo: 'Septh 17th 2020',
+        guests: 8,
+        category: 'celebration',
+        copy:
+            'Enjoy Mexican independance day in historic CDMX. Experience the culture, history, and beautiful weather while dining on local fare.'
     }
 ]
 

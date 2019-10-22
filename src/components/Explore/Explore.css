@@ -1,0 +1,21 @@
+.explore-container {
+    margin: 1rem 0rem;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+@media screen and (min-width: 560px) {
+    .explore-container {
+        margin: 3rem 5rem;
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+}
+
+.explore-links {
+    margin: 5px;
+}
